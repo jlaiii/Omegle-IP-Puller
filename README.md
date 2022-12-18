@@ -1,6 +1,6 @@
 # Omegle IP Puller
 
-This script allows you to retrieve the IP address of the person you are currently connected to on Omegle. A new window will open displaying the IP address, and there will be a button to quickly look up the address.
+This script allows you to retrieve the IP address of the person you are currently connected to on Omegle. A new window will open displaying the IP address, and there will be a button to quickly look up the IP address.
 
 ## How to use:
 
