@@ -5,6 +5,7 @@ This script allows you to retrieve the IP address of the person you are currentl
 ## Upcoming Features
 - Log all IP addresses and display the information and timer next to each one.
 - Timer showing how long you have been connected for.
+- Export all logged IP addresses and associated information, including the timer for each connection, for later reference.
 
 ## How to use
 1. Go to the Omegle website.
