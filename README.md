@@ -10,4 +10,12 @@ This script allows you to retrieve the IP address of the person you are currentl
 4. Start a video call on Omegle.
 5. The new window with the IP address information should now be displayed.
 
-Note: This script is intended for educational purposes only. Please use it responsibly and do not engage in any illegal activities.
+# Educational Script
+
+**Important Disclaimer:** This script is intended for educational purposes only. Please use it responsibly and do not engage in any illegal activities.
+
+This script is designed to demonstrate certain concepts and techniques in a controlled and safe environment. It is not meant to be used for any illegal or malicious purposes. By using this script, you agree to not use it for any illegal activities.
+
+It is important to note that engaging in illegal activities can have serious consequences, including fines, imprisonment, and damage to your reputation. We strongly encourage you to follow all laws and regulations in your jurisdiction.
+
+We hope that you will use this script responsibly and only for educational purposes.
