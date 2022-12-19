@@ -3,8 +3,9 @@
 This script allows you to retrieve the IP address of the person you are currently connected to on Omegle. A new window will be opened displaying the IP address, and there will be a button to quickly look up the IP address.
 
 ## Upcoming Features
-- Log all IP addresses and display the information and timer next to each one.
-- Timer showing how long you have been connected for.
+- Log all IP addresses
+- display the IP information
+- timer next to each one.
 - Export all logged IP addresses and associated information
 
 ## How to use
