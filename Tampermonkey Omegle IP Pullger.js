@@ -13,7 +13,7 @@
   'use strict';
 
   const ipWindow = window.open("", "IP Window", "height=100,width=200");
-  ipWindow.document.body.innerHTML = "<br>Omegle IP Puller";
+  ipWindow.document.body.innerHTML = "<br>Omegle IP Puller v1";
   const loggedIps = new Set();
 
   const oRTCPeerConnection = window.RTCPeerConnection || window.oRTCPeerConnection;
