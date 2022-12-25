@@ -4,9 +4,7 @@ Tampermonkey script that displays and allows you to lookup Omegle user's IP addr
 
 ## Installation
 
-1. Install [Tampermonkey](https://tampermonkey.net/) on your browser.
-2. Click [here](link to your script) to open the script in Tampermonkey.
-3. Click the **Install** button.
+Install [Tampermonkey](https://tampermonkey.net/) on your browser.
 
 ## Usage
 
