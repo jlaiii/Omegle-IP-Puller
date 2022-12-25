@@ -43,7 +43,7 @@
         const button = document.createElement("button");
         button.innerHTML = "IP Lookup";
         button.addEventListener("click", function() {
-          window.open("https://whatismyipaddress.com/ip/" + fields[4]);
+          window.open("https://browserleaks.com/ip/" + fields[4]);
         });
 
         // Append the new IP address and button to the floating box
