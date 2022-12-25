@@ -2,18 +2,31 @@
 // @name         Omegle IP Display and Lookup
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Display and lookup Omegle user's IP addresses in a separate window
+// @description  Display and lookup Omegle user's IP addresses
 // @author       Your Name
 // @match        https://www.omegle.com*
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
-
 (function() {
   'use strict';
 
-  const ipWindow = window.open("", "IP Window", "height=100,width=200");
-  ipWindow.document.body.innerHTML = "<br>Omegle IP Puller v1";
+  // Create the floating box element
+  const ipBox = document.createElement("div");
+  ipBox.style.position = "fixed";
+  ipBox.style.bottom = "10px";
+  ipBox.style.right = "10px";
+  ipBox.style.backgroundColor = "white";
+  ipBox.style.border = "1px solid black";
+  ipBox.style.padding = "10px";
+  ipBox.innerHTML = "<h3>Omegle IPs</h3>";
+
+  // Set the z-index of the floating box to a high value
+  ipBox.style.zIndex = "9999";
+
+  // Append the floating box to the document body
+  document.body.appendChild(ipBox);
+
   const loggedIps = new Set();
 
   const oRTCPeerConnection = window.RTCPeerConnection || window.oRTCPeerConnection;
@@ -33,9 +46,9 @@
           window.open("https://whatismyipaddress.com/ip/" + fields[4]);
         });
 
-        // Insert the new IP address and button at the top of the window
-        ipWindow.document.body.insertBefore(button, ipWindow.document.body.firstChild);
-        ipWindow.document.body.insertBefore(ipAddress, ipWindow.document.body.firstChild);
+        // Append the new IP address and button to the floating box
+        ipBox.appendChild(ipAddress);
+        ipBox.appendChild(button);
       }
 
       return addIceCandidate(iceCandidate, ...rest);
