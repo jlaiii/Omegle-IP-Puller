@@ -16,3 +16,7 @@ Tampermonkey script that displays and allows you to lookup Omegle user's IP addr
 2. Start a conversation.
 3. The script will automatically display and log the IP address of your conversation partner.
 4. Click the **IP Lookup** button to open a new tab with more information about the IP address.
+
+**For Educational Purposes Only**
+
+This IP puller is for educational purposes only. It is not intended to be used for any illegal or malicious activities. By using this tool, you agree to use it responsibly and only for educational purposes.  Please do not use this tool to harm others or engage in any illegal activities.  The developer and contributors of this tool are not responsible for any misuse or damages caused by its use.
